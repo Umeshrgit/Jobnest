@@ -1,0 +1,104 @@
+/* src/pages/Register.css */
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.register-form {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.role-selection button {
+  padding: 12px 20px;
+  margin: 10px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.role-selection button:hover {
+  background-color: #5547d2;
+}
+
+.register-form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.register-form input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.register-form button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.register-form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.switch-link span {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.role-select {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.role-select button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.role-select button:hover {
+  background-color: #574fd1;
+}
+
+.role-select button.active {
+  background-color: #28a745;
+}
